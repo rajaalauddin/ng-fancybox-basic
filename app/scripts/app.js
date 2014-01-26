@@ -1,6 +1,9 @@
 'use strict';
 
-angular.module('ngFancyboxBasicApp', [])
+angular.module('ngFancyboxBasicApp', [
+  'ngRoute',
+  'ra.fancyboxBasic'
+  ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
